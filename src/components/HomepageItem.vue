@@ -1,8 +1,22 @@
 <template>
   <div id="home" class="container grid grid-cols-6 mt-20 mx-auto">
     <div class="col-span-3 flex-column pt-52">
-      <p class="font-bold text-6xl">Hi, I'm</p>
-      <p class="font-bold text-7xl text-cyan-400">Guido Masi,</p>
+      <p
+        class="font-bold text-6xl"
+        v-motion
+        :initial="{ opacity: 0, y: 50 }"
+        :visibleOnce="{ opacity: 1, y: 0, transition: { duration: 200 } }"
+      >
+        Hi, I'm
+      </p>
+      <p
+        class="font-bold text-7xl text-cyan-400"
+        v-motion
+        :initial="{ opacity: 0, y: 50 }"
+        :visibleOnce="{ opacity: 1, y: 0, transition: { duration: 500 } }"
+      >
+        Guido Masi,
+      </p>
       <p class="mt-2 text-2xl">
         a passionate Fullstack Developer with a background as a Physiotherapist.
       </p>

@@ -4,7 +4,12 @@
       <p class="text-center text-6xl px-5 py-2 font-bold mb-12">Last projects</p>
 
       <div class="grid px-5 lg:grid-flow-col lg:gap-5">
-        <div class="mb-10">
+        <div
+          class="mb-10"
+          v-motion
+          :initial="{ opacity: 0, x: -80 }"
+          :visibleOnce="{ opacity: 1, x: 0, transition: { duration: 900 } }"
+        >
           <a
             href="https://github.com/guimasi1/FRONTEND_FINAL_PROJECT"
             rel="nofollow"
@@ -26,7 +31,12 @@
             </div>
           </a>
         </div>
-        <div class="mb-10">
+        <div
+          class="mb-10"
+          v-motion
+          :initial="{ opacity: 0, y: 80 }"
+          :visibleOnce="{ opacity: 1, y: 0, transition: { duration: 900 } }"
+        >
           <a href="https://github.com/guimasi1/U3-W2-D5" rel="nofollow" target="_blank">
             <div class="shadow-2xl rounded-3xl cursor-pointer pb-2 card-project">
               <img
@@ -44,7 +54,12 @@
             </div>
           </a>
         </div>
-        <div class="mb-10">
+        <div
+          class="mb-10"
+          v-motion
+          :initial="{ opacity: 0, x: 80 }"
+          :visibleOnce="{ opacity: 1, x: 0, transition: { duration: 900 } }"
+        >
           <a href="https://modestini-logopedia.netlify.app/" rel="nofollow" target="_blank">
             <div class="shadow-2xl rounded-3xl cursor-pointer pb-2 card-project">
               <img

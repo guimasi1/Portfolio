@@ -12,10 +12,20 @@ import FooterItem from '@/components/FooterItem.vue'
         class="font-bold text-lg hover:bg-cyan-400 hover:text-white px-4 py-1 rounded-2xl"
         >Home</RouterLink
       >
-      <RouterLink
-        to="/about"
+      <a
+        href="#about"
         class="font-bold text-lg hover:bg-cyan-400 hover:text-white px-4 py-1 rounded-2xl"
-        >About</RouterLink
+        >About</a
+      >
+      <a
+        href="#skills"
+        class="font-bold text-lg hover:bg-cyan-400 hover:text-white px-4 py-1 rounded-2xl"
+        >Skills</a
+      >
+      <a
+        href="#projects"
+        class="font-bold text-lg hover:bg-cyan-400 hover:text-white px-4 py-1 rounded-2xl"
+        >Projects</a
       >
     </nav>
     <div>
@@ -26,4 +36,8 @@ import FooterItem from '@/components/FooterItem.vue'
   </div>
 </template>
 
-<style></style>
+<style>
+html {
+  scroll-behavior: smooth;
+}
+</style>

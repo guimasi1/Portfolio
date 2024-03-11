@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-cyan-400 py-5">
+  <div class="bg-cyan-500 py-5">
     <div class="container mx-auto flex justify-between">
       <a href="mailto: masiguido1@gmail.com"> <p class="text-sm">masiguido1@gmail.com</p></a>
       <div class="flex gap-5">
