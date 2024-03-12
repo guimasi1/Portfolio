@@ -1,9 +1,9 @@
 <template>
   <section id="about" class="container mx-auto md:mt-20">
     <div>
-      <p class="text-center border-solid text-5xl md:text-6xl rounded-lg px-5 py-2 font-bold mb-4">
+      <h2 class="text-center border-solid text-5xl md:text-6xl rounded-lg px-5 py-2 font-bold mb-4">
         About me
-      </p>
+      </h2>
       <div class="grid grid-cols-6 mt-10 md:mt-20">
         <div
           class="col-span-6 md:col-span-3 flex justify-center relative"

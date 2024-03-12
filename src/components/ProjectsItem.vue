@@ -1,7 +1,7 @@
 <template>
   <section id="projects" class="container mx-auto mt-20 md:mt-40">
     <div class="flex flex-col">
-      <p class="text-center text-5xl md:text-6xl px-5 py-2 font-bold mb-12">Last projects</p>
+      <h2 class="text-center text-5xl md:text-6xl px-5 py-2 font-bold mb-12">Last projects</h2>
 
       <div class="grid px-5 lg:grid-flow-col lg:gap-5">
         <article

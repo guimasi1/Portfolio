@@ -1,7 +1,7 @@
 <template>
   <section id="skills" class="container mx-auto mt-20 md:mt-40">
     <div>
-      <p class="text-center border-solid text-5xl md:text-6xl px-5 py-2 font-bold mb-4">Skills</p>
+      <h2 class="text-center border-solid text-5xl md:text-6xl px-5 py-2 font-bold mb-4">Skills</h2>
       <div class="text-center">
         <p class="text-xl px-10 md:text-2xl font-bold">
           The skills, tools and technologies that I studied
