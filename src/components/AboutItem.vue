@@ -36,7 +36,7 @@
           </div>
         </div>
         <div
-          class="text-lg mt-14 px-10 md:px-4 col-span-6 md:col-span-3 flex flex-col justify-center text-justify"
+          class="text-basic md:text-lg mt-14 px-10 md:px-4 col-span-6 md:col-span-3 flex flex-col justify-center text-justify"
           v-motion
           :initial="{ opacity: 0, y: 50 }"
           :visibleOnce="{ opacity: 1, y: 0, transition: { duration: 500, delay: 600 } }"
@@ -68,6 +68,10 @@
 <style>
 .container-icons {
   bottom: -10px;
-  right: 42%;
+
+  right: 34%;
+  @media screen and (min-width: 420px) {
+    right: 42%;
+  }
 }
 </style>
