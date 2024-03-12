@@ -1,11 +1,13 @@
 <template>
-  <div id="skills" class="container mx-auto mt-40">
+  <section id="skills" class="container mx-auto mt-20 md:mt-40">
     <div>
-      <p class="text-center border-solid text-6xl px-5 py-2 font-bold mb-4">Skills</p>
+      <p class="text-center border-solid text-5xl md:text-6xl px-5 py-2 font-bold mb-4">Skills</p>
       <div class="text-center">
-        <p class="text-2xl font-bold">The skills, tools and technologies that I studied</p>
+        <p class="text-xl px-10 md:text-2xl font-bold">
+          The skills, tools and technologies that I studied
+        </p>
         <div
-          class="grid sm:grid-cols-4 lg:grid-cols-6 gap-12 w-1/2 mx-auto mt-10"
+          class="grid grid-cols-3 lg:grid-cols-6 gap-12 w-1/2 mx-auto mt-10"
           v-motion
           :initial="{ opacity: 0 }"
           :visibleOnce="{ opacity: 1, transition: { duration: 1000 } }"
@@ -67,5 +69,5 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>

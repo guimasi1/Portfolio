@@ -1,16 +1,18 @@
 <template>
-  <div id="about" class="container mx-auto mt-20">
+  <section id="about" class="container mx-auto md:mt-20">
     <div>
-      <p class="text-center border-solid text-6xl rounded-lg px-5 py-2 font-bold mb-4">About me</p>
-      <div class="grid grid-cols-6 mt-20">
+      <p class="text-center border-solid text-5xl md:text-6xl rounded-lg px-5 py-2 font-bold mb-4">
+        About me
+      </p>
+      <div class="grid grid-cols-6 mt-10 md:mt-20">
         <div
-          class="col-span-3 flex justify-center relative"
+          class="col-span-6 md:col-span-3 flex justify-center relative"
           v-motion
           :initial="{ opacity: 0, y: 50 }"
           :visibleOnce="{ opacity: 1, y: 0, transition: { duration: 700, delay: 400 } }"
         >
           <img
-            class="mt-2 me-10 rounded-full border-4"
+            class="mt-2 md:me-10 rounded-full border-4"
             src="../assets/avataaars (1).svg"
             alt="placeholder"
           />
@@ -34,7 +36,7 @@
           </div>
         </div>
         <div
-          class="text-lg mt-5 col-span-3 flex flex-col justify-center"
+          class="text-lg mt-14 px-10 md:px-4 col-span-6 md:col-span-3 flex flex-col justify-center text-justify"
           v-motion
           :initial="{ opacity: 0, y: 50 }"
           :visibleOnce="{ opacity: 1, y: 0, transition: { duration: 500, delay: 600 } }"
@@ -60,7 +62,7 @@
         </div>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <style>

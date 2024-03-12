@@ -1,10 +1,10 @@
 <template>
-  <div id="projects" class="container mx-auto mt-40">
+  <section id="projects" class="container mx-auto mt-20 md:mt-40">
     <div class="flex flex-col">
-      <p class="text-center text-6xl px-5 py-2 font-bold mb-12">Last projects</p>
+      <p class="text-center text-5xl md:text-6xl px-5 py-2 font-bold mb-12">Last projects</p>
 
       <div class="grid px-5 lg:grid-flow-col lg:gap-5">
-        <div
+        <article
           class="mb-10"
           v-motion
           :initial="{ opacity: 0, x: -80 }"
@@ -30,8 +30,8 @@
               </p>
             </div>
           </a>
-        </div>
-        <div
+        </article>
+        <article
           class="mb-10"
           v-motion
           :initial="{ opacity: 0, y: 80 }"
@@ -53,8 +53,8 @@
               </p>
             </div>
           </a>
-        </div>
-        <div
+        </article>
+        <article
           class="mb-10"
           v-motion
           :initial="{ opacity: 0, x: 80 }"
@@ -75,10 +75,10 @@
               </p>
             </div>
           </a>
-        </div>
+        </article>
       </div>
     </div>
-  </div>
+  </section>
 </template>
 
 <style>
