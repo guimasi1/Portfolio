@@ -1,4 +1,4 @@
-<script setup>
+<script setup lang="ts">
 import { ArrowUpCircleIcon } from '@heroicons/vue/16/solid'
 
 const scrollToTop = () => {

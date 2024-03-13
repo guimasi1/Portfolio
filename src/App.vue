@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { RouterLink, RouterView } from 'vue-router'
-import ButtonUpItem from './components/utils/ButtonUpItem.vue'
+import ButtonUpItem from '@/components/utils/ButtonUpItem.vue'
 import FooterItem from '@/components/FooterItem.vue'
 </script>
 
