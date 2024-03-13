@@ -5,7 +5,7 @@
 
       <div class="grid px-5 lg:grid-flow-col lg:gap-5">
         <article
-          class="mb-10"
+          class="mb-10 dark:bg-zinc-700 text-gray-200 rounded-3xl"
           v-motion
           :initial="{ opacity: 0, x: -80 }"
           :visibleOnce="{ opacity: 1, x: 0, transition: { duration: 900 } }"
@@ -32,7 +32,7 @@
           </a>
         </article>
         <article
-          class="mb-10"
+          class="mb-10 dark:bg-zinc-700 text-gray-200 rounded-3xl"
           v-motion
           :initial="{ opacity: 0, y: 80 }"
           :visibleOnce="{ opacity: 1, y: 0, transition: { duration: 900 } }"
@@ -55,7 +55,7 @@
           </a>
         </article>
         <article
-          class="mb-10"
+          class="mb-10 dark:bg-zinc-700 text-gray-200 rounded-3xl"
           v-motion
           :initial="{ opacity: 0, x: 80 }"
           :visibleOnce="{ opacity: 1, x: 0, transition: { duration: 900 } }"
