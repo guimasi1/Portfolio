@@ -29,7 +29,7 @@
         :initial="{ opacity: 0, y: 50 }"
         :visibleOnce="{ opacity: 1, y: 0, transition: { duration: 500 } }"
         class="rounded-full md:ms-12"
-        src="../assets/penguin-using-laptop.svg"
+        src="../assets/penguin-using-laptop.png"
         alt="cartoon penguin working on a laptop"
       />
     </div>
